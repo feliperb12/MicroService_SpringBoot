@@ -46,7 +46,7 @@ GET /events - Retrieve a list of all events.
     "registeredParticipants": 0,
     "date": "04/02/2024",
     "title": "From Brazil",
-    "description": "Evento Tech em Floripa!!"
+    "description": "Evento Tech no Brazil!!"
   }
 ]
 ```
@@ -64,7 +64,7 @@ GET /events/upcoming - List all upcoming events (which the date is greather then
     "registeredParticipants": 0,
     "date": "04/02/2024",
     "title": "From Brazil",
-    "description": "Evento Tech em Floripa!!"
+    "description": "Evento Tech no Brazil!!"
   }
 ]
 ```
@@ -90,7 +90,7 @@ POST /events/${id} - Register a user into a Event if event is not full
 
 ```json
 {
-  "participantEmail": "liveskipperdev@gmail.com"
+  "participantEmail": "feliperibeiroaraujo3@gmail.com"
 }
 ```
 
