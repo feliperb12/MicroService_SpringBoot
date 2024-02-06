@@ -6,7 +6,6 @@
 
 This project is an API built using **Java, Java Spring, H2 as the database.**
 
-The API was developed for my [Youtube Channel](https://www.youtube.com/live/yACzWg9gUGM?si=lYfhFaalzE56tkC_), to demonstrate how  to create and integrate microservices using Java Spring.
 
 ## Table of Contents
 
@@ -19,27 +18,13 @@ The API was developed for my [Youtube Channel](https://www.youtube.com/live/yACz
 
 ## Installation
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/Fernanda-Kipper/microservice-java.git
-```
-
-2. Install dependencies with Maven
-
-3. Clone the [Email Microservice](https://github.com/Fernanda-Kipper/desafio-backend-uber) repository and follow his installation process
-
-```bash
-git clone https://github.com/Fernanda-Kipper/desafio-backend-uber.git
-```
-
-4. Adjust Email Microservice application.properties to run on port `8090`
+1. Adjust Email Microservice application.properties to run on port `8090`
 
 ```yaml
 server.port=8090
 ```
 
-5. Run both Microservices
+2. Run both Microservices
 
 ## Usage
 
@@ -59,8 +44,8 @@ GET /events - Retrieve a list of all events.
     "id": "ae413540-515d-4add-8cd1-1702c7d280d7",
     "maxParticipants": 20,
     "registeredParticipants": 0,
-    "date": "28/11/2023",
-    "title": "Frontin Floripa",
+    "date": "04/02/2024",
+    "title": "From Brazil",
     "description": "Evento Tech em Floripa!!"
   }
 ]
@@ -77,8 +62,8 @@ GET /events/upcoming - List all upcoming events (which the date is greather then
     "id": "ae413540-515d-4add-8cd1-1702c7d280d7",
     "maxParticipants": 20,
     "registeredParticipants": 0,
-    "date": "28/11/2023",
-    "title": "Frontin Floripa",
+    "date": "04/02/2024",
+    "title": "From Brazil",
     "description": "Evento Tech em Floripa!!"
   }
 ]
@@ -92,9 +77,9 @@ POST /events - Register a new event into the App
 {
 	"maxParticipants": 20,
 	"registeredParticipants": 0,
-	"date": "28/11/2023",
-	"title": "Frontin Floripa",
-	"description": "Evento Tech em Floripa!!"
+        "date": "04/02/2024",
+        "title": "From Brazil",
+	"description": "Evento Tech no Brazil!!"
 }
 ```
 
